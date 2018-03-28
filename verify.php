@@ -1,6 +1,6 @@
 <?php
 //$access_token = 'zy9bDK/VoakRWSYKudJrh4CxL0Nlcyvz9tHJ6bLmUIPx0CiRiSmIAArfbqFpeGFd0/tVCzRgEAn1Nyp+Vb2QaUMkoLxxzxLYGWUzz+M1pS7bHHBL4+fufL0wCTLbwqY8wnrusEk4o3DjJJHNwvQBggdB04t89/1O/w1cDnyilFU=';
-echo 'verify.php'
+echo 'verify.php';
 
 $clientid = '1570757358';
 $clientsecret = '63027787afefca74c046df98f144a3df';
