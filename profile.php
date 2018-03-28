@@ -8,6 +8,7 @@ $headers = array('Authorization: Bearer JVc7NIOEz1KDqtec2VfpoVK8m1f7krwhB1hXNWBn
 
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_GET, 1);
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
