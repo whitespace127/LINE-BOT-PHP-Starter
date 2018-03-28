@@ -4,7 +4,7 @@ $bearer = 'gO9loblB5FjTffIbSm/JdZxwA1uZlwQbpmAIis6oWHWqB1g/C6F34UIN2yn29V7R0/tVC
 //$url = 'https://api.line.me/v2/bot/profile/' . $userid;
 $url = 'https://api.line.me/v2/bot/profile/fennxfoci';
 //$headers = array('Authorization: Bearer ' . $bearer);
-$headers = array('Authorization: Bearer uOaAKl6jjb1EOsEmO5tHrplj3sRJUIlCeYWjDGVeQBW9b7fx2ab2rK9E6E3OOZdU0/tVCzRgEAn1Nyp+Vb2QaUMkoLxxzxLYGWUzz+M1pS4XUwdidk0QbkyZXGznJWsoJ+bBvjpWEyJIBdZlzw2unY9PbdgDzCFqoOLOYbqAITQ=');
+$headers = array('Authorization: Bearer j3sRJUIlCeYWjDGVeQBW9b7fx2ab2rK9E6E3OOZdU0/tVCzRgEAn1Nyp+Vb2QaUMkoLxxzxLYGWUzz+M1pS4XUwdidk0QbkyZXGznJWsoJ+bBvjpWEyJIBdZlzw2unY9PbdgDzCFqoOLOYbqAITQ=');
 
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
