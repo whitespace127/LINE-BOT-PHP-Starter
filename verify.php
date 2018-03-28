@@ -6,7 +6,7 @@ $clientid = '1570757358';
 $clientsecret = '63027787afefca74c046df98f144a3df';
 $url = 'https://api.line.me/v2/oauth/accessToken';
 $headers = array('Content-Type:application/x-www-form-urlencoded');
-$body =	'grant_type=client_credentials&client_id=' . $clientid .'client_secret=' . $clientsecret;
+$body =	'grant_type=client_credentials&client_id=' . $clientid . '&client_secret=' . $clientsecret;
 
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
