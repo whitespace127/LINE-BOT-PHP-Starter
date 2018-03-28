@@ -1,1 +1,1 @@
-<?phpecho "I am a bot...xmana";
+<?php echo "I am a bot...xmana";
